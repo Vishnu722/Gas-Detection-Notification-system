@@ -1,34 +1,33 @@
 Gas Detection and Flame Sensor-Based Alert System using ESP-32 Microcontroller
 
-## **Overview**
+Overview
 This project is a cloud-integrated IoT solution using the ESP-32 microcontroller to detect flames or gases and trigger alerts. It utilizes a flame sensor to monitor environmental safety and a buzzer to signal alerts. The system also includes a web interface for real-time status updates, providing accessibility and ease of monitoring.
 
-## **Working Process:**
+Working Process:
 1. Startup: ESP-32 connects to the Wi-Fi network and initializes the sensors.
 2. Monitoring: Reads data from the flame sensor and evaluates the presence of flames or gas.
 3. Alert Triggering: Activates the buzzer when flame intensity exceeds the safety threshold.
 4. Web Interface: Displays real-time sensor data and status updates via a web server hosted on the ESP-32.
 
-## **Features:**
+Features:
 
 1. Flame and Gas Detection: Monitors flame intensity and triggers alerts when detection levels exceed predefined thresholds.
 2. Real-Time Alerts: Activates a buzzer when flame or gas is detected.
 3. Web-Based Monitoring: Hosts a web page on the ESP-32 for real-time status updates.
 4. IoT Integration: Uses Wi-Fi to connect and provide remote monitoring capabilities.
 
-**Hardware Components:**
+Hardware Components:
 1. ESP-32 Microcontroller
 2. Flame Sensor
 3. Buzzer (Digital Output)
 4. Power Supply
 5. Wi-Fi Connectivity
 
-**Softwares used:**
+Softwares used:
 1. Arduino IDE (for programming ESP-32)
 2. Wi-Fi Network for IoT setup
 
 Setup steps:
-
 1. Clone the repository: **`git clone https://github.com/your-repo/Gas-Flame-Alert-System`**
 2. Navigate to the project directory: **`cd Gas-Flame-Alert-System`**
 3. Open the Arduino IDE and upload the code:
@@ -39,13 +38,13 @@ Setup steps:
     . Note the IP address displayed in the serial monitor after successful setup.
     . Open the IP address in a web browser to monitor the system.
 
-## **Usage**
+Usage
 1. Deploy the system in an area requiring flame or gas detection.
 2. Power the ESP-32 microcontroller and ensure Wi-Fi connectivity.
 3. Access the web interface to monitor real-time status.
 4. Respond to buzzer alerts for safety actions.
 
-## **Future Enhancements**
+Future Enhancements
 * Add support for SMS or email alerts for remote notifications.
 * Integrate gas sensors (e.g., MQ series) for extended functionality.
 * Implement a mobile app for improved user interaction.
