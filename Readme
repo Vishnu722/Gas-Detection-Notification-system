@@ -1,4 +1,4 @@
-## **Gas Detection and Flame Sensor-Based Alert System using ESP-32 Microcontroller**
+Gas Detection and Flame Sensor-Based Alert System using ESP-32 Microcontroller
 
 ## **Overview**
 This project is a cloud-integrated IoT solution using the ESP-32 microcontroller to detect flames or gases and trigger alerts. It utilizes a flame sensor to monitor environmental safety and a buzzer to signal alerts. The system also includes a web interface for real-time status updates, providing accessibility and ease of monitoring.
